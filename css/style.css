@@ -1,0 +1,225 @@
+*{
+    text-decoration:none;
+    margin:0;
+    list-style-type:none;
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:200;
+    font-style:normal;
+    color:white;
+}
+
+header{
+    height:100px;
+    width:100%;
+    background-color:rgba(197, 155, 150, 0);
+    margin:0 auto;
+}
+
+.nav{
+    width:90%;
+    height:50px;
+    background-color:rgba(34, 139, 34, 0);
+    display:flex;
+    align-items:center;
+    margin:0 auto;
+    border-bottom:2px white solid;
+    align-items:flex-end;
+    position:relative;
+    z-index:3;
+}
+
+.navLT{
+    background-color:rgba(0, 0, 255, 0);
+    position:absolute;
+    left:5px;
+    padding:2px 0;
+}
+
+.navLT p{
+    font-weight:600;
+    font-size:18px;
+
+}
+
+.navRT{
+    padding:2px 6px;
+    background-color:rgba(0, 128, 128, 0);
+}
+
+#push{
+    margin-left:980px;
+}
+
+.navRT p{
+    font-weight:400;
+    font:15px;
+}
+
+.sec1{
+    background-color:darkred;
+    width:100%;
+    height:600px;
+    background-image:url(../../HTMLProjectAssets/HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    position:absolute;
+    top:0;
+}
+
+#imageCont{
+    width:100%;
+    height:600px;
+    background-color:rgba(0, 0, 0, 0.301);
+    position:absolute;
+    top:0;
+    display:block;
+}
+
+#centerText{
+    width:450px;
+    padding:10px;
+    background-color:rgba(255, 105, 180, 0);
+    text-align:center;
+    margin:200px auto 0 auto;
+}
+
+#centerText h1{
+    font-weight:600;
+    font-size:75px;
+    border-bottom:1.5px white solid;
+    padding-bottom:15px;
+}
+
+#lowerText{
+    width:740px;
+    padding:10px;
+    background-color:rgba(39, 95, 68, 0);
+    text-align:center;
+    margin:6px auto;
+}
+
+#lowerText h2{
+    font-weight:200;
+    font-size:50px;
+}
+
+.sec2{
+    width:100%;
+    height:1100px;
+    background-color:black;
+    display:inline;
+}
+
+body{
+    background-color:black;
+}
+
+#strip1{
+    width:100%;
+    height:350px;
+    background-color:rgba(216, 191, 216, 0);
+    margin:500px auto 0 auto;
+}
+
+
+.foodCont{
+    width:500px;
+    height:350px;
+    background-image:url(../../HTMLProjectAssets/HTMLProjectAssets/human-holding-a-bread-745988.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.foodText{
+    width:505px;
+    height:150px;
+    background-color:rgba(128, 255, 0, 0);
+    position:absolute;
+    top:690px;
+    left:550px;
+}
+
+.foodText h2{
+    font-weight:500;
+    padding-bottom:10px;
+}
+
+.foodText p{
+    font-size:20px;
+    font-weight:300;
+}
+
+#strip2{
+    width:100%;
+    height:350px;
+    background-color:rgba(17, 52, 126, 0);
+    margin:0 auto;
+}
+
+.foodCont2{
+    width:500px;
+    height:350px;
+    background-image:url(../../HTMLProjectAssets/HTMLProjectAssets/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    float:right;
+}
+
+
+.foodText2{
+    width:505px;
+    height:150px;
+    background-color:rgba(128, 255, 0, 0);
+    position:absolute;
+    top:1080px;
+    left:100px;
+}
+
+.foodText2 h2{
+    font-weight:500;
+    padding-bottom:10px;
+}
+
+.foodText2 p{
+    font-size:20px;
+    font-weight:300;
+}
+
+#strip3{
+    width:100%;
+    height:350px;
+    background-color:rgba(124, 67, 124, 0);
+    margin:0 auto;
+}
+
+.foodCont3{
+    width:500px;
+    height:350px;
+    background-image:url(../../HTMLProjectAssets/HTMLProjectAssets/cooked-pasta-on-brown-wooden-bowl-803963.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.foodText3{
+    width:505px;
+    height:150px;
+    background-color:rgba(128, 255, 0, 0);
+    position:absolute;
+    bottom:-1010px;
+    left:550px;
+}
+
+.foodText3 h2{
+    font-weight:500;
+    padding-bottom:10px;
+}
+
+.foodText3 p{
+    font-size:20px;
+    font-weight:300;
+}
